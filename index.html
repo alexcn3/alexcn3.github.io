@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale-1">
+<title> acnwigwe </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<body>
+  <div class="container-fluid aboutme-para">
+    <div id="my-sidenav">
+      <a href="#who-me" id="about"> About </a>
+      <a href="files/resume.pdf" target="_blank" id="experience"> Experience </a>
+      <a href="#project" id="projects"> Projects </a>
+    </div>
+  </div>
+  <div class="text-center aboutme-para">
+    <h1 class="bolded bigtext" id="who-me"> who, me? </h1>
+  </div>
+  <div class="container-fluid padded aboutme-para">
+    <div class = "row">
+      <div class = "col-sm-2">
+      </div>
+      <div class = "col-sm-4 text-center">
+        <img src="images/alex.JPG" class="img-circle img-resize" alt="Profile picture." data-toggle="tooltip"
+          title="Profile picture...which I use for everything. Consistency is key.">
+      </div>
+      <div class = "col-sm-4 text-center">
+        <p class="description"> My name is Alexandra Nwigwe and I'm a rising junior at Massachussetts Institute 
+          of Technology. I'm studying electrical engineering and computer science with a minor in architecture. 
+          I've always loved working on projects that incorporate design, hardware, and code. Because of this, 
+          when on campus, you can often find me in a Makerspace or similar workshop of the sort! 
+        </p>
+        <p>  <a href="files/resume.pdf" target="_blank" data-toggle="tooltip" title="that's a nice
+          resume. would be a shame if you didn't click on it"> the sparknotes version </a> </p>
+        <a href = "mailto: alexandran2016@gmail.com">   
+        <img src="images/mail.png" class="icon-resize img-fluid" alt="Mail icon" data-toggle="tooltip"
+          title="Call me, beep me">
+        </a>
+        <a href="https://github.com/alexcn3?tab=repositories">
+        <img src="images/github.png" class="icon-resize img-fluid" alt="Github icon" data-toggle="tooltip"
+          title="Hacking the mainframe as we speak.">
+        </a>
+      </div>
+      <div class="col-sm-2">
+      </div>
+    </div>
+  </div>
+ 
+  <div class="text-center aboutme-para">
+    <h1 class="bolded bigtext" id="project"> projects </h1>
+    <p class="description"> these are some little projects (some more miscallaneous than others) that I've embarked on throughout college :) </p>
+  </div>
+  
+  <div class="text-center padded aboutme-para">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+        
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card" style="width:600px">
+                <div class="card-body">
+                  <h4 class="card-title"> autonomous robot </h4>
+                  <div class="row">
+                    <div class="col-sm-5">
+                    <img src="images/beanie.jpg" alt="Robot picture." style="width:60%;height:30%" data-toggle="tooltip"
+                     title="My autonomous robot, named Beanbag the Bot">
+                    </div>
+                    <div class="col-sm-7">
+                      <p class="card-text text-left description" style="width:100%"> I designed and built this robot with parts from a Makeblock kit and fabricating acrylic and sheet metal. It was coded 
+                       to navigate using a RC controller
+                      and perform tasks autonomously such as picking and dropping materials, placing flat items on a vertical surface, placing objects on the robot itself, etc. It was programmed in 
+                      C++ and Scratch. 
+                      </p>
+                      <p class="card-text text-left description bolded" style="width:100%"> Skills Practiced: </p>
+                      <ul class="text-left description" style="width:100%">
+                        <li> CAD using Fusion360 </li>
+                        <li> Circuit design </li>
+                        <li> Mechanical design & analysis </li>
+                        <li> Programming a RC controller </li>
+                        <li> Implementing autonomous algorithms </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card" style="width:600px">
+                <div class="card-body">
+                  <h4 class="card-title"> plantie </h4>
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <img src="images/plantie.jpg" alt="Plantie picture." style="width:60%;height:30%" data-toggle="tooltip"
+                     title="My embeedded systems class project">
+                    </div>
+                    <div class="col-sm-7">
+                      <p class="card-text text-left description" style="width:100%"> This is a plant growth aid and data collector that uses image proccessing to identify plants
+                    or Google's Speech-to-Text API if the user already knows their plant. It senses moisture and has scheduled LEDs
+                    that change colors to reflect the time and duration of outdoor light. It calculates growth rate of a user's plant
+                    and strives to optimize it! It was programmed in C++ and Python. 
+                      </p>
+                      <p class="card-text text-left description bolded" style="width:100%"> Skills Practiced: </p>
+                      <ul class="text-left description" style="width:100%">
+                        <li> Programming scheduled functions in Arduino </li>
+                        <li> Programming with both cores of a dual-core processor </li>
+                        <li> Implementing speech to text </li>
+                        <li> Sending information back & forth between a server & an ESP32 </li>
+                        <li> Working with databases </li>
+                        <li> Circuit design </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card" style="width:600px">
+                <div class="card-body">
+                  <h4 class="card-title"> moon light </h4>
+                  <div class="row">
+                    <div class="col-sm-5">
+                      <img src="images/moonlight.jpg" style="width:60%;height:30%" alt="Moon light picture." data-toggle="tooltip"
+                     title="moon light, not to be confused with moonlight">
+                    </div>
+                    <div class="col-sm-7">
+                      <p class="card-text text-left description" style="width:100%"> This is a lamp I made for a friend who really enjoys photographing the moon. It gathers data from a weather and moon ph                       ases API that it checks daily and changes color depending on what optimal phase for photographing it is, turquoise is a full moon, light blue for a supermoon,
+                        red for a total eclipse and pink for a partial one. Depending on when the moon rises and sets everyday, the light blinks for a minute leading up to those times. It was programmed
+                        in C++ and Python.
+                      </p>
+                      <p class="card-text text-left description bolded" style="width:100%"> Skills Practiced: </p>
+                      <ul class="text-left description" style="width:100%">
+                        <li> Programming scheduled functions in Python </li>
+                        <li> Using an Arduino ESP32 to periodically check time </li>
+                        <li> Sending information back & forth between a server & an ESP32 </li>
+                        <li> Working with databases </li>
+                        <li> Circuit design </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon" style="background-color:#8db3d3"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon" style="background-color:#8db3d3"></span>
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-3">
+  </div>
+  </div>
+  <footer class="container-fluid text-center aboutme-foot">
+    <a id="collapse-foot" data-toggle="collapse" href="#collapse1">  
+    <a class="whitelink" href="#who-me"> back to the top!  </a>
+  </footer>
+</body>

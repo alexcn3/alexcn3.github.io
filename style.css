@@ -1,0 +1,250 @@
+#collapse-foot {
+  color: white;
+}
+.whitelink {
+  color: white;
+}
+
+.img-resize {
+  height: 350px;
+  width: 70%;
+}
+
+.aboutme-pic {
+  background-color: #8db3d3;
+  color: aliceblue;
+}
+
+.aboutme-para {
+  background-color: white;
+  color: #8db3d3;
+}
+
+.bigtext {
+  font-size: 80px;
+}
+
+.aboutme-foot {
+  background-color: grey;
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.aboutme-sug {
+  background-color: #fbefbb;
+  color: grey;
+}
+.padded {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.small-padded {
+  padding-top: 20px;
+}
+
+.padded-top {
+  padding-top: 85px;
+}
+.description {
+  color: grey;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 14px;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+.yellow {
+  color: #fbefbb;
+}
+
+.white {
+  color: white;
+}
+
+.underline-yellow {
+  text-decoration: underline;
+  text-decoration-color: #fbefbb;
+}
+
+.underline-pink {
+  text-decoration: underline;
+  text-decoration-color: #f2bbcb;
+}
+
+.underline-blue {
+  text-decoration: underline;
+  text-decoration-color: #089cb2;
+}
+
+#my-sidenav a {
+  position: absolute;
+  left: -102px;
+  transition: 0.3s;
+  padding: 20px;
+  padding-left: 15px;
+  padding-right: 50px;
+  width: 140px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#my-sidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #8db3d3; 
+}
+
+#experience {
+  top: 100px;
+  background-color: #8db3d3;
+}
+
+#projects {
+  top: 180px;
+  background-color: #8db3d3;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+img {
+  image-orientation: from-image;
+}
+
+.foot-desc {
+  color: white;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.righticon {
+  right: 0;
+  left: auto;
+}
+
+.project-des {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+
+}
+
+.typewriter {
+  width: auto;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 auto;
+  border-right: .10em solid grey;
+  white-space: nowrap;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 19% }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #8db3d3;
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.icon-resize {
+  height: 5%;
+  width: 5%;
+}
+
+.fave-resize {
+  height: 150px;
+  width: 40%;
+}
+
+
+div#sugs li {
+  list-style-type: none;
+  margin-bottom: 5%;
+}
+
+div#sugs.scroll-comments {
+  height: 300px;
+}
+
+.comment-area {
+  background-color: grey;
+  color: white;
+}
+
+.scroll-comments {
+  height: 140px;
+  width: 80%;
+  overflow: scroll;
+}
+
+.transparent-button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.form-search {
+  height: 34px;
+}
+
+button.disabled:hover span {
+  display:none
+}
+
+button.disabled:hover:before {
+  content:"Log in to comment!"
+}
+
+.sug-resize {
+  height: 50%;
+  width: 50%;
+}
+
+.pic-padded {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
